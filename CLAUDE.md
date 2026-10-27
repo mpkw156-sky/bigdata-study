@@ -24,6 +24,12 @@
 - "최신으로 받아줘" → `git pull`
 - "오늘 한 거 올려줘" → 변경 파일 확인 후 `git add -A`, `git commit -m "weekNN: <오늘 한 내용 요약>"`, `git push`
 - 충돌이 나면 임의로 덮어쓰지 말고, 어떤 파일이 왜 충돌했는지 설명하고 사용자에게 선택을 묻는다.
+- 사용자의 GitHub 계정은 이메일 비공개 보호가 켜져 있어서, 개인 이메일로 만든 커밋은 push가 거절된다.
+  이 저장소에서 처음 커밋하기 전에 아래 설정을 확인하고, 다르면 이 저장소에만 설정한다.
+  ```
+  git config user.name "mpkw156-sky"
+  git config user.email "347766934+mpkw156-sky@users.noreply.github.com"
+  ```
 
 ## 환경
 
