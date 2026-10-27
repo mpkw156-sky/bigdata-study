@@ -13,7 +13,11 @@
 # 반환: 모든 수의 합 (예: 10)
 # 금지: sum()
 def total(nums):
-    pass
+    count = 0
+    for n in nums:
+        count = count + n
+
+    return count
 
 
 # 문제 2. 평균
